@@ -1,6 +1,6 @@
 # Radix-4 8×8 Signed Booth Multiplier — RTL to GDS Flow
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a **Radix-4 Booth encoded 8×8 signed multiplier**, taken through a complete **RTL-to-GDSII design flow**.
 The design focuses on architectural efficiency, reduced partial products, and realistic post-layout timing analysis.
@@ -9,7 +9,7 @@ The multiplier supports **two’s complement signed multiplication** and is impl
 
 ---
 
-## ⚙️ Architecture Highlights
+##  Architecture Highlights
 
 * **Radix-4 Modified Booth Encoding**
 
@@ -26,7 +26,7 @@ The multiplier supports **two’s complement signed multiplication** and is impl
 
 ---
 
-## 🛠️ Tools & Technology
+##  Tools & Technology
 
 | Stage                   | Tool                                     |
 | ----------------------- | ---------------------------------------- |
@@ -38,7 +38,7 @@ The multiplier supports **two’s complement signed multiplication** and is impl
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 | Metric           | Observation                        |
 | ---------------- | ---------------------------------- |
@@ -50,7 +50,7 @@ The multiplier supports **two’s complement signed multiplication** and is impl
 
 ---
 
-## 🎯 Key Learnings
+##  Key Learnings
 
 * Importance of **architecture-level optimization** over brute-force sizing
 * Why **post-layout timing** is the only realistic performance metric
@@ -59,7 +59,7 @@ The multiplier supports **two’s complement signed multiplication** and is impl
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 * Register insertion for pipelined version
 * Comparison with Wallace / Dadda multipliers
